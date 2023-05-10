@@ -6,9 +6,11 @@
 
 
 
-void ten_sc(int num1, int num2, int num3) {
+void ten_sc(int num1, int num2, int num3) 
+{
 
-	for (;;) {
+	for (;;) 
+	{
 		std::cout << "¬ведите число положительное целое число или 0 дл€ выхода из программы -> ";
 		std::cin >> num1;
 		if (num1 == 0)
@@ -57,4 +59,4 @@ void ten_sc(int num1, int num2, int num3) {
 	}
 
 
-	}
+}
